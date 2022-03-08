@@ -21,10 +21,6 @@ for(String element:name) {
 		System.out.println("Double number "+element);
 	
 }
-
-		
-
-		
-	}
+}
 
 }
