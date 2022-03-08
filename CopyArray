@@ -1,0 +1,22 @@
+package ars.ak;
+
+public class CopyArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int []arr= {1,2,5,84,6,484,48,54,648,4854,6484,58484,648451,848464,548};
+		int []arr2= new int[arr.length];
+		
+		for(int i=0;i< arr.length;i++) {
+			arr2[i]=arr[i];
+			
+		}
+		
+		//Displaying Original Array
+		for(int i=0;i<arr.length;i++) {
+			System.out.println(arr[i]+" ");
+		}
+	}
+
+}
