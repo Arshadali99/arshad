@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+
+public class Array_with_set {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList<String>name=new ArrayList<String>();
+name.add("arshad");
+name.add("ali");
+name.add("Rohit");
+name.add("rajesh");
+name.add("ali");
+name.add("Rohit");
+
+Set<String> s =new HashSet<String>();
+
+for(String element:name) {
+	if(s.add(element)==false)
+		System.out.println("Double number "+element);
+	
+}
+
+		
+
+		
+	}
+
+}
