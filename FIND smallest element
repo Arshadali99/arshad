@@ -1,0 +1,13 @@
+public class Smallest_Element {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       int[] arr= {114,84,648,18413,841684,186,864,8484,84,6851,94,984,89489,4,84,848,4,64,548,6541};
+    int min=arr[0];
+    for(int i=0;i<arr.length;i++) {
+    	if(min>arr[i])
+    		min=arr[i];
+    }
+    System.out.println("minimum value in array "+min);
+	}
+	}
